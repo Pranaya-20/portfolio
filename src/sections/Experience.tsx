@@ -28,7 +28,7 @@ const experienceList: ExperienceCardData[] = [
     company: 'IEEE AIMLA & ICCRTEE',
     period: '2025 – 2026',
     tags: ['IEEE', 'Publications', 'XAI'],
-    image: '/images/experience_2nd.png',
+    image: '/images/ieee_presentation.png',
     description: 'Published peer-reviewed research on high-fidelity carbon quantification (YOLOv8 + ZoE-Depth) and vehicle confirmation passing networks (Augmentations + Gradio) in IEEE proceedings.',
   },
   {
@@ -37,7 +37,7 @@ const experienceList: ExperienceCardData[] = [
     company: 'HACKARE 2.0',
     period: '2024',
     tags: ['ML', 'FastAPI', 'AWS Amplify'],
-    image: '/images/hackathon.png',
+    image: '/images/hackathon_group.png',
     description: 'Co-built a personalized educational application for under-resourced schools within a highly competitive time limit. Implemented core ML features.',
   },
   {
