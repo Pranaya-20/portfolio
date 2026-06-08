@@ -340,7 +340,7 @@ export const Hobbies: React.FC = () => {
         {/* Sticky Background Image */}
         <div className="sticky top-0 h-screen w-full overflow-hidden pointer-events-none" style={{ zIndex: 0 }}>
           <img
-            src="/me/my_image2.png"
+            src="/me/my_image.jpg"
             alt=""
             aria-hidden="true"
             className="absolute bottom-0 left-[62%] -translate-x-1/2 h-full object-contain object-bottom select-none opacity-45"

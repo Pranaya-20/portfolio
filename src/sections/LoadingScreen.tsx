@@ -96,7 +96,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
             style={{
               transform: `scaleX(${progress / 100})`,
               transformOrigin: 'left',
-              boxShadow: '0 0 8px rgba(137, 170, 204, 0.4)',
+              boxShadow: '0 0 8px rgba(217, 119, 6, 0.4)',
             }}
           />
         </div>

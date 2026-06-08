@@ -55,7 +55,7 @@ const experienceList: ExperienceCardData[] = [
     company: 'Deep Learning Cluster',
     period: '2025',
     tags: ['PyTorch', 'ViT', 'Grad-CAM'],
-    image: '/images/MAGIC.png',
+    image: '/images/ham10000_architecture.png',
     description: 'Formulated skin lesion diagnosis overlays on 10,015 images using ViT-B/16 and Grad-CAM, addressing black-box healthcare opacity.',
   },
   {
@@ -64,7 +64,7 @@ const experienceList: ExperienceCardData[] = [
     company: 'KARE CSE Labs',
     period: '2026',
     tags: ['YOLOv8', 'ZoE-Depth', 'SageMaker'],
-    image: '/images/greencalc3.png',
+    image: '/images/greencalc_workflow.png',
     description: 'Constructed an automated species classification and 3D Metric Depth estimation network, achieving sub-3s latency on serverless AWS structures.',
   },
 ];

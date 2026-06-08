@@ -42,12 +42,12 @@ export const projectsList: ProjectData[] = [
     number: '01',
     category: 'Research & AWS',
     name: 'GreenCalc',
-    href: 'https://github.com/pranaya-20/GreenCalc',
+    href: 'https://us-east-1pj9j4cyqm.auth.us-east-1.amazoncognito.com/login?client_id=380osptgvpcvs5jka7hhigkik6&response_type=code&scope=email+openid+phone&redirect_uri=https%3A%2F%2Fstaging.dofc1rnoatrbn.amplifyapp.com',
     featured: true,
     flipLayout: true,
     tech: ['python', 'yolo', 'aws', 'sagemaker', 'streamlit'],
     col1: ['/images/greencalc1.png', '/images/greencalc2.png'],
-    col2: '/images/greencalc3.png',
+    col2: '/images/greencalc_workflow.png',
     blocks: [
       {
         label: 'Why I Built It',
@@ -91,12 +91,12 @@ export const projectsList: ProjectData[] = [
     number: '03',
     category: 'Explainable AI',
     name: 'HAM10000 XAI',
-    href: 'https://github.com/pranaya-20/XAI-ViT-Skin-Lesion',
+    href: 'https://colab.research.google.com/drive/1IEQSvbyVycGQ-WoUzU4Yi9JdSp22y-bv?usp=sharing',
     featured: true,
     flipLayout: true,
     tech: ['pytorch', 'vit', 'gradcam', 'scikitlearn', 'python'],
     col1: ['/images/xai1.png', '/images/xai1.png'],
-    col2: '/images/xai2.png',
+    col2: '/images/ham10000_architecture.png',
     blocks: [
       {
         label: 'Why I Built It',
