@@ -156,16 +156,7 @@ const SkillChip: React.FC<SkillChipProps> = ({ label }) => {
   );
 };
 
-const HoverToExplore: React.FC = () => {
-  return (
-    <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full liquid-glass bg-white/10 backdrop-blur-sm border border-white/10 text-[10px] uppercase tracking-[0.2em] text-white/70">
-      hover to explore
-      <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-      </svg>
-    </span>
-  );
-};
+
 
 // Accordion Card for Mobile
 interface MobileCardProps {
@@ -301,7 +292,7 @@ export const Skills: React.FC = () => {
               loop
               muted
               playsInline
-              className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity duration-500"
+              className="absolute inset-0 w-full h-full object-cover opacity-20"
             />
           )}
           <div className="absolute top-6 left-6 z-30 pointer-events-none">
@@ -315,12 +306,8 @@ export const Skills: React.FC = () => {
             </p>
           </div>
 
-          <div className="absolute bottom-5 right-5 z-30 opacity-100 group-hover:opacity-0 transition-opacity duration-300 pointer-events-none">
-            <HoverToExplore />
-          </div>
-
-          {/* Expanded Skill Chips box on Hover */}
-          <div className="absolute inset-x-0 bottom-0 z-20 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+          {/* Expanded Skill Chips box */}
+          <div className="absolute inset-x-0 bottom-0 z-20 p-5">
             <div className="rounded-2xl liquid-glass bg-white/10 backdrop-blur-sm border border-white/10 p-4 shadow-sm">
               <div className="flex flex-wrap gap-2">
                 {skillsData[0].chips.map((chip) => (
@@ -375,7 +362,7 @@ export const Skills: React.FC = () => {
                 loop
                 muted
                 playsInline
-                className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity duration-500"
+                className="absolute inset-0 w-full h-full object-cover opacity-20"
               />
             )}
             <div className="absolute top-5 left-5 z-30 pointer-events-none">
@@ -387,11 +374,7 @@ export const Skills: React.FC = () => {
               </p>
             </div>
 
-            <div className="absolute bottom-5 right-5 z-30 opacity-100 group-hover:opacity-0 transition-opacity duration-300 pointer-events-none">
-              <HoverToExplore />
-            </div>
-
-            <div className="absolute inset-x-0 bottom-0 z-20 p-4 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+            <div className="absolute inset-x-0 bottom-0 z-20 p-4">
               <div className="w-full rounded-2xl liquid-glass bg-white/10 backdrop-blur-sm border border-white/10 p-4 shadow-sm">
                 <div className="flex flex-wrap gap-2">
                   {skillsData[2].chips.map((chip) => (
@@ -421,7 +404,7 @@ export const Skills: React.FC = () => {
                 loop
                 muted
                 playsInline
-                className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity duration-500"
+                className="absolute inset-0 w-full h-full object-cover opacity-20"
               />
             )}
             <div className="absolute top-5 left-5 z-30 pointer-events-none">
@@ -433,11 +416,7 @@ export const Skills: React.FC = () => {
               </p>
             </div>
 
-            <div className="absolute bottom-5 right-5 z-30 opacity-100 group-hover:opacity-0 transition-opacity duration-300 pointer-events-none">
-              <HoverToExplore />
-            </div>
-
-            <div className="absolute inset-x-0 bottom-0 z-20 p-4 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+            <div className="absolute inset-x-0 bottom-0 z-20 p-4">
               <div className="rounded-2xl liquid-glass bg-white/10 backdrop-blur-sm border border-white/10 p-3 shadow-sm">
                 <div className="flex flex-wrap gap-2">
                   {skillsData[3].chips.map((chip) => (

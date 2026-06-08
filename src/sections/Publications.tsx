@@ -13,13 +13,13 @@ const publicationList: Publication[] = [
     title: "High-Fidelity Carbon Footprint Quantification from a Single Image...",
     description: "Deployed end-to-end Computer Vision pipeline integrating YOLOv8 and ZoE-Depth to compute carbon sequestration from single 2D images. Published in IEEE proceedings.",
     venue: "IEEE AIMLA 2026",
-    doi: "https://doi.org/10.1109/AIMLA67915.2026.11522305"
+    doi: "https://ieeexplore.ieee.org/document/11522305"
   },
   {
     title: "Vehicle Confirmation Passing Detection Using Data Augmentation and Gradio",
     description: "Engineered deep learning-based vehicle verification detection network leveraging heavy data augmentation policies and interactive Gradio inference portals.",
     venue: "IEEE ICCRTEE 2025",
-    doi: "https://doi.org/10.1109/ICCRTEE64519.2025.11053115"
+    doi: "https://ieeexplore.ieee.org/document/11053115"
   }
 ];
 

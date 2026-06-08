@@ -7,7 +7,7 @@ const navLinks = [
   { label: 'Projects', href: '#projects' },
   { label: 'Experience', href: '#experience' },
   { label: 'Publications', href: '#publications' },
-  { label: 'Hobbies', href: '#hobbies' },
+  { label: 'Recognition', href: '#recognition' },
   {
     label: 'Resume',
     href: 'https://linkedin.com/in/pranaya-subramani', // Fallback to LinkedIn or custom link
@@ -28,7 +28,7 @@ export const Navbar: React.FC<NavbarProps> = ({ visible }) => {
       setIsScrolled(window.scrollY > 100);
 
       // Simple active tab updating based on scroll
-      const sections = ['hero', 'features', 'projects', 'experience', 'publications', 'hobbies'];
+      const sections = ['hero', 'features', 'projects', 'experience', 'publications', 'recognition'];
       for (const sectionId of sections) {
         const el = document.getElementById(sectionId);
         if (el) {

@@ -28,7 +28,7 @@ const experienceList: ExperienceCardData[] = [
     company: 'IEEE AIMLA & ICCRTEE',
     period: '2025 – 2026',
     tags: ['IEEE', 'Publications', 'XAI'],
-    image: '/images/IEEE.png',
+    image: '/images/ieee_presentation.png',
     description: 'Published peer-reviewed research on high-fidelity carbon quantification (YOLOv8 + ZoE-Depth) and vehicle confirmation passing networks (Augmentations + Gradio) in IEEE proceedings.',
   },
   {
@@ -46,7 +46,7 @@ const experienceList: ExperienceCardData[] = [
     company: 'AWS / Coursera / HCL',
     period: '2024 – 2025',
     tags: ['AWS ML', 'Google AI', 'Figma'],
-    image: '/images/AWS_Google.png',
+    image: '/images/aws_certification.png',
     description: 'Certified in AWS ML Terminology & Process, Google AI Essentials (Coursera), and Figma Framework (GUVI/HCL) for UX layouts.',
   },
   {

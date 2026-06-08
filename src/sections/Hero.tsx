@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { CTAButtons } from '../components/CTAButtons';
 
-const roleDefault = ['AI & ML', 'Engineer'];
+const roleDefault = ['AI & ML Engineer', 'AWS Cloud Developer'];
 
 interface HeroProps {
   isLoading: boolean;
@@ -56,7 +56,7 @@ export const Hero: React.FC<HeroProps> = ({ isLoading }) => {
           <div className="absolute top-[60px] sm:top-[80px] left-1/2 -translate-x-1/2 z-30 w-[clamp(160px,38vw,480px)] select-none">
             {/* Default Face */}
             <img
-              src="/me/my_image.jpg"
+              src="/me/my_image_banner.png"
               alt="S.J. Pranaya"
               className="hero-image opacity-0 scale-95 w-full object-contain drop-shadow-2xl select-none"
             />
@@ -86,7 +86,7 @@ export const Hero: React.FC<HeroProps> = ({ isLoading }) => {
             </div>
 
             <div className="hero-fade opacity-0 translate-y-4 blur-sm flex flex-col items-end gap-2 text-right mt-1">
-              <RoleHeader containerClass="font-body font-black text-[clamp(1.8rem,10vw,3.5rem)] leading-[0.88] tracking-tight text-text-primary uppercase text-right whitespace-nowrap" />
+              <RoleHeader containerClass="font-body font-black text-[clamp(1.2rem,6vw,2.2rem)] leading-[1.0] tracking-tight text-text-primary uppercase text-right" />
             </div>
           </div>
 
@@ -113,7 +113,7 @@ export const Hero: React.FC<HeroProps> = ({ isLoading }) => {
 
             <div className="flex flex-col items-end gap-4 text-right flex-shrink-0">
               <div className="hero-fade opacity-0 translate-y-4 blur-sm">
-                <RoleHeader containerClass="font-body font-black text-[clamp(2rem,7vw,7rem)] leading-[0.88] tracking-tight text-text-primary uppercase text-right whitespace-nowrap" />
+                <RoleHeader containerClass="font-body font-black text-[clamp(1.8rem,4.5vw,4rem)] leading-[1.0] tracking-tight text-text-primary uppercase text-right" />
               </div>
             </div>
           </div>
