@@ -71,7 +71,7 @@ export const projectsList: ProjectData[] = [
     featured: true,
     tech: ['langchain', 'huggingface', 'pytorch', 'streamlit', 'python'],
     col1: ['/images/insight1.png', '/images/insight1.png'],
-    col2: '/images/insight2.png',
+    col2: '/images/insight_engine_workflow.png',
     blocks: [
       {
         label: 'Why I Built It',
