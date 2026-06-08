@@ -19,7 +19,7 @@ const experienceList: ExperienceCardData[] = [
     company: 'KARE ACM-W Chapter',
     period: '2024 – 2025',
     tags: ['Leadership', 'Workshops', 'Outreach'],
-    image: '/images/ACM_W.png',
+    image: '/images/vice_chair.png',
     description: 'Led the ACM Women in Computing chapter. Organized technical workshops, Guest lectures, and community outreach. Managed event coordination and workload allocations.',
   },
   {
@@ -28,7 +28,7 @@ const experienceList: ExperienceCardData[] = [
     company: 'IEEE AIMLA & ICCRTEE',
     period: '2025 – 2026',
     tags: ['IEEE', 'Publications', 'XAI'],
-    image: '/images/ieee_presentation.png',
+    image: '/images/experience_2nd.png',
     description: 'Published peer-reviewed research on high-fidelity carbon quantification (YOLOv8 + ZoE-Depth) and vehicle confirmation passing networks (Augmentations + Gradio) in IEEE proceedings.',
   },
   {

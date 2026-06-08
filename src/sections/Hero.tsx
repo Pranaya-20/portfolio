@@ -53,7 +53,7 @@ export const Hero: React.FC<HeroProps> = ({ isLoading }) => {
           </span>
 
           {/* Photo Frame Container */}
-          <div className="absolute top-[60px] sm:top-[80px] left-1/2 -translate-x-1/2 z-30 w-[clamp(160px,38vw,480px)] select-none">
+          <div className="absolute top-[25px] sm:top-[30px] left-1/2 -translate-x-1/2 z-30 w-[clamp(160px,38vw,480px)] select-none">
             {/* Default Face */}
             <img
               src="/me/my_image_banner.png"

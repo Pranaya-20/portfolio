@@ -253,7 +253,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, onImageClick 
                 src={project.col2}
                 alt={project.name}
                 loading="lazy"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain p-2 bg-surface/30"
               />
             </div>
             <div className="flex flex-col gap-1.5 flex-shrink-0">
@@ -338,7 +338,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, onImageClick 
                 src={project.col2}
                 alt={project.name}
                 loading="lazy"
-                className="w-full h-full object-cover hover:scale-102 transition-transform duration-700 select-none"
+                className="w-full h-full object-contain p-4 bg-surface/30 hover:scale-102 transition-transform duration-700 select-none"
               />
             </div>
           </div>
